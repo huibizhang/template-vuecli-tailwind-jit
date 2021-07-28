@@ -1,7 +1,5 @@
 {
-  "name": "vuecli-tailwind-jit-template",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "npm-run-all -p serve-vuecli build-tailwind",
     "build": "vue-cli-service build",
