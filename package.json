@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.0.0",
   "scripts": {
     "serve": "npm-run-all -p serve-vuecli build-tailwind",
     "build": "vue-cli-service build",
@@ -14,6 +14,7 @@
     "postcss": "^7.0.36",
     "postcss-cli": "^7.1.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
+    "tailwindcss-cli": "^0.1.2",
     "vue": "^3.0.0"
   },
   "devDependencies": {
