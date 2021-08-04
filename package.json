@@ -1,20 +1,19 @@
 {
   "version": "0.0.0",
   "scripts": {
-    "serve": "npm-run-all -p serve-vuecli build-tailwind",
-    "build": "vue-cli-service build",
+    "serve": "npm-run-all -p watch-tailwind serve-vuecli",
+    "build": "npm-run-all -s build-tailwind build-vuecli",
     "lint": "vue-cli-service lint",
     "serve-vuecli": "vue-cli-service serve",
-    "build-tailwind": "tailwindcss-cli -i ./tailwind.css -o ./src/index.css -w"
+    "watch-tailwind": "tailwindcss-cli -i ./tailwind.css -o ./src/index.css --jit -w",
+    "build-vuecli": "vue-cli-service build",
+    "build-tailwind": "tailwindcss-cli -i ./tailwind.css -o ./src/index.css --jit --minify"
   },
   "dependencies": {
     "autoprefixer": "^9.8.6",
     "core-js": "^3.6.5",
     "npm-run-all": "^4.1.5",
-    "postcss": "^7.0.36",
-    "postcss-cli": "^7.1.2",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
-    "tailwindcss-cli": "^0.1.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7",
     "vue": "^3.0.0"
   },
   "devDependencies": {
