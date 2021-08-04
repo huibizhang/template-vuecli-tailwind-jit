@@ -1,18 +1,15 @@
-# template-vuecli5-tailwind-jit
+# template-vuecli-tailwind-jit
 
-- **template of:** vue-cli 5-beta + vue3
-- **postcss ver:** 8
+- **template of:** vue-cli + vue3
 - **tailwindcss:** v2.2.7
 
 ## Started
 with npm:
 ```bash
-npm install -g tailwindcss-cli
 npm install
 ```
 with yarn:
 ```bash
-yarn global add tailwindcss-cli
 yarn
 ```
 
