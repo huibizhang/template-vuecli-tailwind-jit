@@ -1,6 +1,7 @@
 # template-vuecli-tailwind-jit
 
 - **template of:** vue-cli + vue3
+- **posrcss ver:** 7
 - **tailwindcss:** v2.2.7
 
 ## Started
